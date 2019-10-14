@@ -2,7 +2,7 @@ package string_conversions;
 
 import java.util.Scanner;
 
-public class Conversion
+public class Conversions
 {
     public static void main(String[] args)
     {
