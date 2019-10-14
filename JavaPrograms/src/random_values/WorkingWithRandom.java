@@ -7,6 +7,9 @@ public class WorkingWithRandom
 {
     public static void main(String[] args)
     {
+        int bigNum = 1000000000;
+        long bigNum2 = 1000000000000000000L;
+
         //we're going to use the Random class
         //to generate random values
         Random rand = new Random();

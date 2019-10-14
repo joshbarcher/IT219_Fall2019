@@ -39,9 +39,3 @@ public class PayProgram
         System.out.println("Your pay is: $" + pay);
     }
 }
-
-
-
-
-
-
