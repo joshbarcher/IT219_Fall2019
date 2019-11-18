@@ -51,32 +51,32 @@ public class Dog
 
     //setters (mutators)
 
-    public void setName(String newName)
+    public void setName(String name)
     {
-        if (newName != null && !newName.equals(""))
+        if (name != null && !name.equals(""))
         {
-            name = newName;
+            this.name = name;
         }
     }
 
-    public void setBreed(String newBreed)
+    public void setBreed(String breed)
     {
-        if (newBreed != null && !newBreed.equals(""))
+        if (breed != null && !breed.equals(""))
         {
-            breed = newBreed;
+            this.breed = breed;
         }
     }
 
-    public void setDomesticated(boolean newDomesticated)
+    public void setDomesticated(boolean domesticated)
     {
-        domesticated = newDomesticated;
+        this.domesticated = domesticated;
     }
 
-    public void setWeight(double newWeight)
+    public void setWeight(double weight)
     {
-        if (newWeight > 0)
+        if (weight > 0)
         {
-            weight = newWeight;
+            this.weight = weight;
         }
     }
 
